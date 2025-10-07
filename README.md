@@ -1,17 +1,17 @@
-# 🌐 SmartWeb Services
+# SmartWeb Services
 
 **SmartWeb Services** es una aplicación web desarrollada con HTML, CSS, JavaScript y Bootstrap que permite administrar y visualizar los servicios de una empresa de desarrollo tecnológico.  
 Incluye un panel CRUD, login de administrador y páginas informativas para los usuarios.
 
 ---
 
-## 🚀 Objetivo del Proyecto
+## Objetivo del Proyecto
 Desarrollar un sitio web funcional y atractivo que simule el portal corporativo de una empresa de servicios digitales.  
 El sistema permite gestionar los servicios (crear, editar, eliminar y activar/inactivar), visualizar detalles de cada uno y mantener comunicación mediante un formulario de contacto.
 
 ---
 
-## 🧩 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 SmartWeb-Services/
@@ -46,7 +46,7 @@ SmartWeb-Services/
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **HTML5** – Estructura semántica  
 - **CSS3 / Bootstrap 5** – Diseño moderno y responsive  
@@ -56,7 +56,7 @@ SmartWeb-Services/
 
 ---
 
-## 💡 Principales Funcionalidades
+## Principales Funcionalidades
 
 1. **Login de administrador** – acceso restringido.  
 2. **CRUD completo** – crear, editar, eliminar y activar/inactivar servicios.  
@@ -69,7 +69,7 @@ SmartWeb-Services/
 
 ---
 
-## ⚙️ Instrucciones de Uso
+## Instrucciones de Uso
 
 1. Clonar el repositorio:
    ```bash
@@ -87,7 +87,7 @@ SmartWeb-Services/
 
 ---
 
-## 🧠 Mejores Prácticas
+## Mejores Prácticas
 
 - Separación de capas: HTML / CSS / JS.  
 - Uso de nombres semánticos.  
@@ -97,23 +97,23 @@ SmartWeb-Services/
 
 ---
 
-## 📊 Diagramas del Proyecto
+## Diagramas del Proyecto
 
 - **Casos de Uso:** muestra la relación entre el administrador y las funcionalidades CRUD.  
 - **Diagrama de Actividades:** representa el flujo desde el login hasta la gestión de servicios.
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **William Ferney Acosta Ruiz**  
 Proyecto académico – Desarrollo Web  
-📅 Año: 2025  
-📧 Contacto: [tu_correo@ejemplo.com](mailto:tu_correo@ejemplo.com)
+Año: 2025  
+Contacto: wfacosta@poligran.edu.co
 
 ---
 
-## 🏁 Estado del Proyecto
+## Estado del Proyecto
 
-✅ **Versión final (Semana 7)**  
+**Versión final (Semana 7)**  
 Incluye todas las vistas, funcionalidades CRUD, diagramas UML y documentación técnica completa.
