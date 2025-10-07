@@ -141,4 +141,152 @@ form button {
   line-height: 1.6;
 }
 
+main .col-md-6 {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 
+table {
+  font-size: 1rem;
+}
+
+#buscador {
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+}
+
+.navbar .btn-outline-dark:hover {
+  background-color: #f1f1f1; /* gris claro */
+  color: #212529 !important; /* texto negro */
+  border-color: #212529;
+}
+
+/* Botón principal (Iniciar sesión) */
+.btn-primary-custom {
+  background-color: #0d6efd;  /* azul Bootstrap */
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+  background-color: #0b5ed7;  /* azul más oscuro */
+  transform: scale(1.03);
+  color: #fff;
+}
+
+/* Botón secundario (Crear usuario) */
+.btn-secondary-custom {
+  background-color: #6c757d;  /* gris Bootstrap */
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary-custom:hover {
+  background-color: #5a6268;  /* gris más oscuro */
+  transform: scale(1.03);
+  color: #fff;
+}
+
+/* ===== Modal personalizado ===== */
+.modal-content {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 12px 12px 0 0;
+}
+
+.modal-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.modal-body {
+  padding: 1.5rem;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+  padding: 1rem 1.5rem;
+}
+
+/* ===== Inputs dentro del modal ===== */
+#nombreServicio,
+#precioServicio {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+#nombreServicio:focus,
+#precioServicio:focus {
+  border-color: #0d6efd; /* Azul Bootstrap */
+  box-shadow: 0 0 6px rgba(13, 110, 253, 0.3);
+  outline: none;
+}
+
+/* ===== Botones del modal ===== */
+.modal-footer .btn-secondary {
+  background: #e9ecef;
+  border: none;
+  color: #333;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 8px 18px;
+  transition: 0.2s;
+}
+
+.modal-footer .btn-secondary:hover {
+  background: #d6d8db;
+}
+
+.modal-footer .btn-primary {
+  background: #0d6efd;
+  border: none;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 8px 18px;
+  transition: 0.2s;
+}
+
+.modal-footer .btn-primary:hover {
+  background: #0b5ed7;
+}
+
+/* Limitar ancho de la columna Nombre */
+.table td:nth-child(2), 
+.table th:nth-child(2) {
+  max-width: 250px; /* puedes ajustar el ancho */
+  white-space: nowrap;   /* evita saltos de línea */
+  overflow: hidden;      /* oculta el exceso */
+  text-overflow: ellipsis; /* muestra ... */
+}
+
+/* Encabezado del modal de eliminar */
+.modal-header.bg-danger {
+  background-color: #D5DBDB !important; /* Rojo más suave */
+  color: #B3B2AE !important;           /* Texto en rojo apagado */
+  border-bottom: 2px solid #B3B2AE;    /* Borde elegante */
+}
+
+/* Ícono y título del modal */
+.modal-header .modal-title {
+  font-weight: 600;
+}
+
+/* Texto del servicio a eliminar */
+#servicioEliminarNombre {
+  font-weight: bold;
+  color: #b94a48; /* Rojo apagado, elegante */
+}
